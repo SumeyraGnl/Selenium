@@ -26,6 +26,10 @@ public class C05_DriverNavigateMethodlari {
 
         driver.navigate().forward();
         Thread.sleep(2000);
+
+        driver.navigate().refresh();
+        Thread.sleep(2000);
+
         driver.close();
 
 

@@ -59,9 +59,9 @@ public class C02_IlkTest {
         String actualPageSource= driver.getPageSource();
 
         if (actualPageSource.contains(expectedIcerik)){
-            System.out.println("Sayfa kaynak kodları alisveris iceriyor, URL Test PASSED");
+            System.out.println("Sayfa kaynak kodları alisveris iceriyor, Test PASSED");
         }else {
-            System.out.println("Sayfa kaynak kodları alisveris  icermiyor, URL Test FAİLED");
+            System.out.println("Sayfa kaynak kodları alisveris  icermiyor, Test FAİLED");
         }
 
         //10. Sayfayi kapatin.
