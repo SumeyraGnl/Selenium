@@ -7,7 +7,7 @@ public class C01_DriverGetMethodlari {
     public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver","src/resources/chromedriver");
-        // sisteme webdriver'in ne olacagını ve bu driver2in hangi dosya yolunda oldugunu soyler
+        // sisteme webdriver'in ne olacagını ve bu driver'in hangi dosya yolunda oldugunu soyler
 
         WebDriver driver=new ChromeDriver();
         // Bilgisayarimizdaki Chrome browser'in otomasyonla calisacak bir kopyasini olusturur
