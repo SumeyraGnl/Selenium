@@ -29,7 +29,7 @@ public class C01_Locator {
         // 3- Görüntülenen sonuçların sayısını yazdırın
 
         WebElement aramaSonucuElementi = driver.findElement(By.className("sg-col-inner"));
-        System.out.println(aramaSonucuElementi.getText());
+        System.out.println(aramaSonucuElementi.getText());  // 1-16 of 242 results for "city bike"
 
         // 4- Listeden ilk urunun resmine tıklayın.
 
