@@ -17,7 +17,7 @@ public class P02 {
 
         WebDriver driver=new ChromeDriver();
 
-        // 3-Driver'in tum ekranı kaplamasini sagu ayalim
+        // 3-Driver'in tum ekranı kaplamasini saglayalim
 
         driver.manage().window().maximize();
 
